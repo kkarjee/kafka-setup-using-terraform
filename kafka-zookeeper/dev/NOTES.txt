@@ -1,0 +1,12 @@
+1. If not able to login into instance verify your IP address in inbound rules
+2. Remove kafka/zookeeper host entries from /etc/hosts
+3. Setup ebs volume for kafka
+4. Setup script
+
+
+# Terraform
+# visualization
+terraform graph | dot -Tsvg > graph.svg
+
+# SSH
+ssh -i mykafkakey ubuntu@IP
